@@ -1,5 +1,6 @@
 <b>What is this board?</b>
 
+
 This is what I consider the best thing you can have to use in a HomeAutomation setup as it is small, works with the M5Atom out of the box and it has IR RX and TX , Temp and Humidity. 
 
 <b>How did this board came to life ?</b>
