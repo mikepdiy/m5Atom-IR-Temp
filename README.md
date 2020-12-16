@@ -37,7 +37,7 @@ Libraries :
 
 -SparkFunTMP102
 
-<b> The Demo Code reads the temperature in Celsius and/or Fahrenheit and will print it in SerialMonitor along side with and received IR signal as a SignalDump using the IRremoteESP8266 example IRrecvDumpV2 . You can take this further and build on it including the IR TX functionality and and also integrate with an MQTT client to work with HomeBridge. </b>
+<b> With the Demo Code from each library, IRremoteESP8266 example IRrecvDumpV2 and SparkFunTMP102 Example1_Basic_Temperature_Readings , it reads the temperature in Celsius and/or Fahrenheit and will print it in SerialMonitor or a SignalDump using the IRremoteESP8266 example IRrecvDumpV2 . You can take this further and build on it including the IR TX functionality and and also integrate with an MQTT client to work with HomeBridge. </b>
 
 <b> Where to buy the board </b>
 
