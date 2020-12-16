@@ -3,18 +3,18 @@
 ![](images/atomir.PNG)
 
 
-This is what I consider the best thing you can have to use in a HomeAutomation setup as it is small, works with the M5Atom out of the box and it has IR RX and TX , Temp and Humidity. 
+This is what I consider the best thing you can have to use in a HomeAutomation setup as it is small, works with the M5Atom out of the box and it has IR RX and TX plus a very precise Temperature sensor. 
 
 <b>How did this board came to life ?</b>
 
-I have recently got into the Apple HomeKit system and I was not that happy with the costs and range of accesorries so I have gotten down the route of HomeBridge and used the amazing system that the people behind this project give to the community . 
+I have recently got into the Apple HomeKit system and I was not that happy with the costs and range of accesorries so I have gotten down the route of HomeBridge and used the amazing system that the people behind this project gave to the community . 
 Now I needed to reduce the space used by all my messy wires and integrate as many sensors as I could in one small package that can sit in a room.
 
 <b>What does this board offer in terms of sensors : </b>
 
 1. 9 x IR Transmitter LED with 150degree angle of transmission each 
 2. 1 x IR Receiver to help in grabbing signals or repeating them
-3. 1 x SHT30 Temperature and Humidity Sensor to help in automation setups lilke " IF the Office Temp goes over 28 Celsius then turn AC ON but if it goes under 25 turn AC OFF."
+3. 1 x TMP102 Temperature Sensor to help in automation setups lilke " IF the Office Temp goes over 28 Celsius then turn AC ON but if it goes under 25 turn AC OFF." Due to the small size of the board the temperature reading is influenced by the proximity to the M5Atom and you have to calibrate that once you get the board. I have tried many ways to counter this problem but at the end of the day it would be hilarious in shape and too big so it would defeat the purpose of being a useful small piece of kit.
 
 <b>Why to buy this board ? </b>
 
@@ -31,16 +31,13 @@ Board BSP : ESP32
 
 Libraries : 
 
--ESPUI
+-M5Atom
 
--AccelStepper
+-IRremoteESP8266
 
--Adafruit SSD 1306
+-SparkFunTMP102
 
--Adafvruit GFX
-
--DNSServer ( possibly included in the ESP32 BSP)
-
+<b> The Demo Code reads the temperature in Celsius and/or Fahrenheit and will print it in SerialMonitor along side with and received IR signal as a SignalDump using the IRremoteESP8266 example IRrecvDumpV2 . You can take this further and build on it including the IR TX functionality and and also integrate with an MQTT client to work with HomeBridge. </b>
 
 <b> Where to buy the board </b>
 
