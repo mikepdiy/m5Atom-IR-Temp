@@ -37,6 +37,21 @@ Libraries :
 
 -SparkFunTMP102
 
+<b>Pinout :</b>
+
+IR RX - 21
+
+IR TX - 25
+
+SDA - 23
+
+SCL - 33
+
+Alert - 19
+
+To set the I2C pipe please put in void setup() the following Wire.begin(23,33) 
+
+
 <b> With the Demo Code from each library, IRremoteESP8266 example IRrecvDumpV2 and SparkFunTMP102 Example1_Basic_Temperature_Readings , it reads the temperature in Celsius and/or Fahrenheit and will print it in SerialMonitor or a SignalDump using the IRremoteESP8266 example IRrecvDumpV2 . You can take this further and build on it including the IR TX functionality and and also integrate with an MQTT client to work with HomeBridge. </b>
 
 <b> Where to buy the board </b>
