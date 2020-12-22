@@ -56,4 +56,6 @@ To set the I2C pipe please put in void setup() the following Wire.begin(23,33)
 
 <b> Where to buy the board </b>
 
-Tindie Link Here
+Get it here
+
+https://www.tindie.com/products/mikepdiy/m5atom-ir-transmitterreceiver-and-temperature/
